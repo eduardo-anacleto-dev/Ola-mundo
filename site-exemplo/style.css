@@ -16,6 +16,7 @@ h1{
 
 body{
     background-color:rgb(77, 77, 77); 
+    margin-left: 120px;
 }
 
 #aboutme{
@@ -25,7 +26,34 @@ body{
     padding: 1%;
     border-radius: 9px;
     font-family: 'Inter', sans-serif;
-    text-align: justify;text-align: justify;
+    text-align: justify;
     line-height: 1.4;        /* melhora leitura */
     hyphens: auto;           /* quebra palavras corretamente */
 }
+
+a{
+    display: block;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(119, 112, 112);
+    border: 3px solid rgb(63, 61, 59);
+    padding: 2%;
+    align-items: left;
+    width: 500px;
+    height:auto;
+    margin-bottom: 10px;
+    transition: all 0.25 ease;
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover{
+    background: rgba(224, 193, 168, 0.356);
+    border-color: rgb(236, 120, 42) ;
+
+}
+
+
+
